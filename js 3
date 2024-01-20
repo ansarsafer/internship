@@ -1,0 +1,9 @@
+// models/class.js
+const mongoose = require('mongoose');
+
+const classSchema = new mongoose.Schema({
+  standard: String,
+  division: String
+});
+
+module.exports = mongoose.model('Class', classSchema);
