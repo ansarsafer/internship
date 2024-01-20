@@ -1,0 +1,9 @@
+// routes/class.js
+const express = require('express');
+const router = express.Router();
+const Class = require('../models/class');
+
+// CRUD operations for Class
+// Define your routes here
+
+module.exports = router;
